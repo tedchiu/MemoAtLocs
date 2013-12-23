@@ -22,6 +22,28 @@
 		FB9ADE021867DDD300A1410B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ADDE61867DDD300A1410B /* CoreData.framework */; };
 		FB9ADE0A1867DDD300A1410B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB9ADE081867DDD300A1410B /* InfoPlist.strings */; };
 		FB9ADE0C1867DDD300A1410B /* MemoAtLocsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE0B1867DDD300A1410B /* MemoAtLocsTests.m */; };
+		FB9ADE191867DF5D00A1410B /* helpScreen-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB9ADE151867DF5D00A1410B /* helpScreen-1.jpg */; };
+		FB9ADE1A1867DF5D00A1410B /* helpScreen-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB9ADE161867DF5D00A1410B /* helpScreen-2.jpg */; };
+		FB9ADE1B1867DF5D00A1410B /* helpScreen-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB9ADE171867DF5D00A1410B /* helpScreen-3.jpg */; };
+		FB9ADE1C1867DF5D00A1410B /* helpScreen-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB9ADE181867DF5D00A1410B /* helpScreen-4.jpg */; };
+		FB9ADE2C1867DF8300A1410B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9ADE1D1867DF8300A1410B /* Main.storyboard */; };
+		FB9ADE2D1867DF8300A1410B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE1F1867DF8300A1410B /* MasterViewController.m */; };
+		FB9ADE2E1867DF8300A1410B /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE211867DF8300A1410B /* ImageViewController.m */; };
+		FB9ADE2F1867DF8300A1410B /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE231867DF8300A1410B /* CollectionViewCell.m */; };
+		FB9ADE301867DF8300A1410B /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE251867DF8300A1410B /* EditViewController.m */; };
+		FB9ADE311867DF8300A1410B /* LocationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE271867DF8300A1410B /* LocationMapViewController.m */; };
+		FB9ADE321867DF8300A1410B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE291867DF8300A1410B /* MapViewController.m */; };
+		FB9ADE331867DF8300A1410B /* Event+MKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE2B1867DF8300A1410B /* Event+MKAnnotation.m */; };
+		FB9ADE3F1867DFA200A1410B /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE361867DFA200A1410B /* Event.m */; };
+		FB9ADE401867DFA200A1410B /* PhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE381867DFA200A1410B /* PhotoLibrary.m */; };
+		FB9ADE411867DFA200A1410B /* PhotoStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE3A1867DFA200A1410B /* PhotoStorage.m */; };
+		FB9ADE421867DFA200A1410B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ADE3C1867DFA200A1410B /* MyViewController.m */; };
+		FB9ADE431867DFA200A1410B /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9ADE3D1867DFA200A1410B /* MyView.xib */; };
+		FB9ADE451867DFE000A1410B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ADE441867DFE000A1410B /* iAd.framework */; };
+		FB9ADE471867DFEA00A1410B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ADE461867DFEA00A1410B /* CoreLocation.framework */; };
+		FB9ADE491867DFF300A1410B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ADE481867DFF300A1410B /* MapKit.framework */; };
+		FB9ADE4C1867E00000A1410B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ADE4A1867E00000A1410B /* AddressBook.framework */; };
+		FB9ADE4D1867E00000A1410B /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ADE4B1867E00000A1410B /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +75,39 @@
 		FB9ADE071867DDD300A1410B /* MemoAtLocsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoAtLocsTests-Info.plist"; sourceTree = "<group>"; };
 		FB9ADE091867DDD300A1410B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB9ADE0B1867DDD300A1410B /* MemoAtLocsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoAtLocsTests.m; sourceTree = "<group>"; };
+		FB9ADE151867DF5D00A1410B /* helpScreen-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "helpScreen-1.jpg"; sourceTree = "<group>"; };
+		FB9ADE161867DF5D00A1410B /* helpScreen-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "helpScreen-2.jpg"; sourceTree = "<group>"; };
+		FB9ADE171867DF5D00A1410B /* helpScreen-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "helpScreen-3.jpg"; sourceTree = "<group>"; };
+		FB9ADE181867DF5D00A1410B /* helpScreen-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "helpScreen-4.jpg"; sourceTree = "<group>"; };
+		FB9ADE1D1867DF8300A1410B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB9ADE1E1867DF8300A1410B /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		FB9ADE1F1867DF8300A1410B /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		FB9ADE201867DF8300A1410B /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		FB9ADE211867DF8300A1410B /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		FB9ADE221867DF8300A1410B /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		FB9ADE231867DF8300A1410B /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		FB9ADE241867DF8300A1410B /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		FB9ADE251867DF8300A1410B /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		FB9ADE261867DF8300A1410B /* LocationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMapViewController.h; sourceTree = "<group>"; };
+		FB9ADE271867DF8300A1410B /* LocationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMapViewController.m; sourceTree = "<group>"; };
+		FB9ADE281867DF8300A1410B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FB9ADE291867DF8300A1410B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FB9ADE2A1867DF8300A1410B /* Event+MKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Event+MKAnnotation.h"; sourceTree = "<group>"; };
+		FB9ADE2B1867DF8300A1410B /* Event+MKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Event+MKAnnotation.m"; sourceTree = "<group>"; };
+		FB9ADE351867DFA200A1410B /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		FB9ADE361867DFA200A1410B /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		FB9ADE371867DFA200A1410B /* PhotoLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoLibrary.h; sourceTree = "<group>"; };
+		FB9ADE381867DFA200A1410B /* PhotoLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoLibrary.m; sourceTree = "<group>"; };
+		FB9ADE391867DFA200A1410B /* PhotoStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoStorage.h; sourceTree = "<group>"; };
+		FB9ADE3A1867DFA200A1410B /* PhotoStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStorage.m; sourceTree = "<group>"; };
+		FB9ADE3B1867DFA200A1410B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		FB9ADE3C1867DFA200A1410B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		FB9ADE3D1867DFA200A1410B /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		FB9ADE441867DFE000A1410B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FB9ADE461867DFEA00A1410B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FB9ADE481867DFF300A1410B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FB9ADE4A1867E00000A1410B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FB9ADE4B1867E00000A1410B /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +115,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9ADE4C1867E00000A1410B /* AddressBook.framework in Frameworks */,
+				FB9ADE4D1867E00000A1410B /* AddressBookUI.framework in Frameworks */,
+				FB9ADE491867DFF300A1410B /* MapKit.framework in Frameworks */,
+				FB9ADE471867DFEA00A1410B /* CoreLocation.framework in Frameworks */,
+				FB9ADE451867DFE000A1410B /* iAd.framework in Frameworks */,
 				FB9ADDE31867DDD300A1410B /* CoreGraphics.framework in Frameworks */,
 				FB9ADDE71867DDD300A1410B /* CoreData.framework in Frameworks */,
 				FB9ADDE51867DDD300A1410B /* UIKit.framework in Frameworks */,
@@ -103,6 +163,11 @@
 		FB9ADDDF1867DDD300A1410B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB9ADE4A1867E00000A1410B /* AddressBook.framework */,
+				FB9ADE4B1867E00000A1410B /* AddressBookUI.framework */,
+				FB9ADE481867DFF300A1410B /* MapKit.framework */,
+				FB9ADE461867DFEA00A1410B /* CoreLocation.framework */,
+				FB9ADE441867DFE000A1410B /* iAd.framework */,
 				FB9ADDE01867DDD300A1410B /* Foundation.framework */,
 				FB9ADDE21867DDD300A1410B /* CoreGraphics.framework */,
 				FB9ADDE41867DDD300A1410B /* UIKit.framework */,
@@ -117,8 +182,32 @@
 			children = (
 				FB9ADDF11867DDD300A1410B /* AppDelegate.h */,
 				FB9ADDF21867DDD300A1410B /* AppDelegate.m */,
+				FB9ADE1D1867DF8300A1410B /* Main.storyboard */,
+				FB9ADE1E1867DF8300A1410B /* MasterViewController.h */,
+				FB9ADE1F1867DF8300A1410B /* MasterViewController.m */,
+				FB9ADE201867DF8300A1410B /* ImageViewController.h */,
+				FB9ADE211867DF8300A1410B /* ImageViewController.m */,
+				FB9ADE221867DF8300A1410B /* CollectionViewCell.h */,
+				FB9ADE231867DF8300A1410B /* CollectionViewCell.m */,
+				FB9ADE241867DF8300A1410B /* EditViewController.h */,
+				FB9ADE251867DF8300A1410B /* EditViewController.m */,
+				FB9ADE261867DF8300A1410B /* LocationMapViewController.h */,
+				FB9ADE271867DF8300A1410B /* LocationMapViewController.m */,
+				FB9ADE281867DF8300A1410B /* MapViewController.h */,
+				FB9ADE291867DF8300A1410B /* MapViewController.m */,
+				FB9ADE2A1867DF8300A1410B /* Event+MKAnnotation.h */,
+				FB9ADE2B1867DF8300A1410B /* Event+MKAnnotation.m */,
 				FB9ADDF71867DDD300A1410B /* Images.xcassets */,
 				FB9ADDF41867DDD300A1410B /* MemoAtLocs.xcdatamodeld */,
+				FB9ADE351867DFA200A1410B /* Event.h */,
+				FB9ADE361867DFA200A1410B /* Event.m */,
+				FB9ADE371867DFA200A1410B /* PhotoLibrary.h */,
+				FB9ADE381867DFA200A1410B /* PhotoLibrary.m */,
+				FB9ADE391867DFA200A1410B /* PhotoStorage.h */,
+				FB9ADE3A1867DFA200A1410B /* PhotoStorage.m */,
+				FB9ADE3B1867DFA200A1410B /* MyViewController.h */,
+				FB9ADE3C1867DFA200A1410B /* MyViewController.m */,
+				FB9ADE3D1867DFA200A1410B /* MyView.xib */,
 				FB9ADDE91867DDD300A1410B /* Supporting Files */,
 			);
 			path = MemoAtLocs;
@@ -131,6 +220,10 @@
 				FB9ADDEB1867DDD300A1410B /* InfoPlist.strings */,
 				FB9ADDEE1867DDD300A1410B /* main.m */,
 				FB9ADDF01867DDD300A1410B /* MemoAtLocs-Prefix.pch */,
+				FB9ADE151867DF5D00A1410B /* helpScreen-1.jpg */,
+				FB9ADE161867DF5D00A1410B /* helpScreen-2.jpg */,
+				FB9ADE171867DF5D00A1410B /* helpScreen-3.jpg */,
+				FB9ADE181867DF5D00A1410B /* helpScreen-4.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,8 +321,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9ADE2C1867DF8300A1410B /* Main.storyboard in Resources */,
+				FB9ADE191867DF5D00A1410B /* helpScreen-1.jpg in Resources */,
 				FB9ADDED1867DDD300A1410B /* InfoPlist.strings in Resources */,
 				FB9ADDF81867DDD300A1410B /* Images.xcassets in Resources */,
+				FB9ADE431867DFA200A1410B /* MyView.xib in Resources */,
+				FB9ADE1C1867DF5D00A1410B /* helpScreen-4.jpg in Resources */,
+				FB9ADE1B1867DF5D00A1410B /* helpScreen-3.jpg in Resources */,
+				FB9ADE1A1867DF5D00A1410B /* helpScreen-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +347,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9ADE3F1867DFA200A1410B /* Event.m in Sources */,
+				FB9ADE2F1867DF8300A1410B /* CollectionViewCell.m in Sources */,
+				FB9ADE331867DF8300A1410B /* Event+MKAnnotation.m in Sources */,
+				FB9ADE2E1867DF8300A1410B /* ImageViewController.m in Sources */,
+				FB9ADE2D1867DF8300A1410B /* MasterViewController.m in Sources */,
+				FB9ADE401867DFA200A1410B /* PhotoLibrary.m in Sources */,
+				FB9ADE321867DF8300A1410B /* MapViewController.m in Sources */,
+				FB9ADE301867DF8300A1410B /* EditViewController.m in Sources */,
+				FB9ADE421867DFA200A1410B /* MyViewController.m in Sources */,
+				FB9ADE311867DF8300A1410B /* LocationMapViewController.m in Sources */,
 				FB9ADDF31867DDD300A1410B /* AppDelegate.m in Sources */,
 				FB9ADDF61867DDD300A1410B /* MemoAtLocs.xcdatamodeld in Sources */,
+				FB9ADE411867DFA200A1410B /* PhotoStorage.m in Sources */,
 				FB9ADDEF1867DDD300A1410B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

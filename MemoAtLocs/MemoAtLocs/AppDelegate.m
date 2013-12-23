@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MasterViewController.h"
+
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -16,10 +18,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+/*
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    return YES;
+*/
+    // Override point for customization after application launch.
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    
+    MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
+    controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 
