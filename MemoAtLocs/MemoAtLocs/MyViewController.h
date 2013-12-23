@@ -50,9 +50,7 @@
 @interface MyViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UILabel *pageNumberLabel;
-
 @property (nonatomic, strong) IBOutlet UILabel *numberTitle;
-// @property (nonatomic, strong) IBOutlet UIImageView *numberImage;
 @property (weak, nonatomic) IBOutlet UIScrollView *imageScrollView;
 
 - (id)initWithPageNumber:(NSUInteger)page;
